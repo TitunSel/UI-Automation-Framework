@@ -33,7 +33,7 @@ public  class BrowserUtility {
 	 
 	 
 	 public BrowserUtility(Browser browsername, boolean isHeadless) {
-		 logger.info("Launching Browser for:"+browsername);;
+		 logger.info("Launching Browser for:"+browsername);
 		  if(browsername==Browser.CHROME  ) {
 			  if(isHeadless) {
 			  ChromeOptions options=new ChromeOptions();

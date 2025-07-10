@@ -1,6 +1,6 @@
 package com.ui.tests;
 
-import static com.constants.Browser.*;
+//import static com.constants.Browser.*;
 
 import static  org.testng.Assert.*;
 

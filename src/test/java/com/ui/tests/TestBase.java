@@ -20,8 +20,8 @@ public class TestBase {
 	
 	protected HomePage homepage;
 	Logger logger= LoggerUtility.getLogger(this.getClass());
-	private boolean isLambdaTest;
-	private boolean isHeadLess;
+	private boolean isLambdaTest=true;
+	private boolean isHeadLess=true;
 	
 	@Parameters({"browser","isLambdaTest","isHeadLess"})
 	@BeforeMethod(description="Load the HomePage of the website")
